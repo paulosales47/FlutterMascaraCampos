@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:mascara_campos/home.dart';
+import 'package:mascara_campos/formulario.dart';
 
 void main(){
   runApp(MaterialApp(
     title: "Mascaras e Validações",
-    home: Home(),
+    home: Formulario(),
     debugShowCheckedModeBanner: false,
   ));
 }
